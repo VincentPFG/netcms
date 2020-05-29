@@ -1,6 +1,6 @@
 backend:
     name: github
-    repo: VincentPFG/netcmstest
+    repo: VincentPFG/netcms
 
 media_folder: static/assets
 public_folder: /assets
