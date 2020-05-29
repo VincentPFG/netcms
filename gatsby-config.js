@@ -5,6 +5,13 @@ module.exports = {
 		author: `@gatsbyjs`
 	},
 	plugins: [
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `blog`,
+				path: `${__dirname}/blog/`
+			}
+		},
 		`gatsby-plugin-netlify-cms`,
 		`gatsby-plugin-react-helmet`,
 		{
